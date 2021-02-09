@@ -19,7 +19,7 @@ public class JavaDataStructures {
 
         UnOrderedArray u1= new UnOrderedArray(1000000);
         
-        for(int x=0; x<1000000;x++)
+        for(int x =0; x< 1000000;x++)
         {
         u1.addLast(rand.nextInt(90));
         }
@@ -35,7 +35,7 @@ public class JavaDataStructures {
         
         for(int x=0; x<1000000;x++)
         {
-        u1.addLast(rand.nextInt(90));
+        u11.addLast(rand.nextInt(90));
         }
         
      System.out.println("Quick sort loading done.. Sorting started!");
